@@ -5,20 +5,20 @@ class strongNo{
         int d;
         int sum = 0;
         int fact = 1;
-        // while(n != 0){
+        while(n != 0){
             d = n%10;
             for(int i=d; i>=1; i--){
                 fact = fact*i;
             }
-            // n = n/10;
-            // sum = sum + fact;
-        System.out.print(d);
+            n = n/10;
+            sum = sum + fact;
+        // System.out.println(d);
         }
         if(sum == n){
-            // System.out.print("The no. is Strong Number");
+            System.out.print("The no. is Strong Number");
         }
         else{
-            // System.out.print("The no. is not Strong Number");
+            System.out.print("The no. is not Strong Number");
         }
     }
     public static void main(String[] args){
