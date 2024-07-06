@@ -13,8 +13,6 @@ class checkArmstrongNo{
             n1 = n1/10;
             length++;
         }
-        // System.out.print(length);
-
 
         while(n2>0){
             r = n2%10;
